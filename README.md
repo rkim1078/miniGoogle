@@ -6,6 +6,9 @@ Built from the ground up:
 - A local search engine in C++ capable of saving and reading index files from disk
 - A polished, internet-accessible version of this search engine
 
+![demo1](./images/img1.png)
+Server is able to support simultaneous client connections on different browsers.
+
 ## Overview
 This project is organized as follows:
 - `miniGoogle/hw1`: C implementation of a doubly-linked list and a chained hashtable
