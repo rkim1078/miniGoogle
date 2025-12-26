@@ -1,0 +1,19 @@
+*.o
+*.so
+*.a
+*:Zone.Identifier
+
+# but always keep the *.a and other files found in solution-binaries
+!**/solution_binaries/*
+
+# also keep everything in libhw[1-4], including .a library links
+!**/libhw[1-4]/*
+
+# also keep everything in gtest, including libgtest.a
+!**/gtest/*
+
+# emacs backup files
+*~
+
+# OS X finder files (doesn't happen on linux, but sometimes useful)
+.DS_Store
