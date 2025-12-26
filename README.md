@@ -11,11 +11,11 @@ Server is able to support simultaneous client connections on different browsers.
 
 ## Overview
 This project is organized as follows:
-- `miniGoogle/hw1`: C implementation of a doubly-linked list and a chained hashtable
-- `miniGoogle/hw2`: C implementation of a local search engine, functions much like `grep`
-- `miniGoogle/hw3`: C++ adaptation of local search engine, able to save/read files from disk
-- `miniGoogle/hw4`: Internet-accessible version of search engine, complete with front-end, server-side C++ networking code that listens for and accepts client connections, and defenses against XSS and directory traversal attacks
-- `miniGoogle/projdocs/test_tree`: benchmark test cases for each portion; see Testing for more
+- [`miniGoogle/hw1`](./hw1/): C implementation of a doubly-linked list and a chained hashtable
+- [`miniGoogle/hw2`](./hw2/): C implementation of a local search engine, functions much like `grep`
+- [`miniGoogle/hw3`](./hw3/): C++ adaptation of local search engine, able to save/read files from disk
+- [`miniGoogle/hw4`](./hw4/): Internet-accessible version of search engine, complete with front-end, server-side C++ networking code that listens for and accepts client connections, and defenses against XSS and directory traversal attacks
+- [`miniGoogle/projdocs/test_tree`](./projdocs/test_tree/): benchmark test cases for each portion; see Testing for more
 
 ## Installation/Usage
 Install basic prerequisites and dependencies, if not already present:
